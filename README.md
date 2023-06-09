@@ -8,8 +8,8 @@ _TODO: Describe how to access the data used for this hackathon, preferably throu
 ## Goals
 _TODO: Describe the goal of this hackathon, preferably through quantifiable metrics in src/utils._
 
-## Streams
-_TODO: Describe the main work streams (teams) in this hackathon, try to keep it up to date with changes or additional streams._
+## Timeline
+_TODO: Add timeline_
 
 # Installation
 
@@ -19,7 +19,7 @@ _TODO: Describe the main work streams (teams) in this hackathon, try to keep it 
     
     b) Conda: create and activate a conda env for this project:
 ```bash
-conda create -n genai-bootcamp python=3.9
+conda create -n genai-bootcamp python=3.10
 conda activate genai-bootcamp
 ```
 
