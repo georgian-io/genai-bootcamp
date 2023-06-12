@@ -15,3 +15,34 @@ We are including a short list of common terms nad parameters that you might see 
 * `top_p`: This is similar to `top_k` sampling but instead of choosing from the `K` most probable words, we instead choose from the smallest set of words whose cumulative probability is higher than some probability `p`. Ref: https://huggingface.co/blog/how-to-generate#top-p-nucleus-sampling
 
 * `max_new_tokens/max_tokens/max_output_tokens`: All of these refer to the same parameter, just on different APIs. It specifies the maximum number of new tokens to be included in the model's output. You can think of this as the maximum number of words you want in your output (not including the input itself).
+
+
+---
+
+# classifcation
+
+## Chain of Thought
+- Add a prompt that forces the model to "think" about why something would be classified as positive or negative first before making a final classification
+- Bonus: Find an example where original answer is wrong and CoT fixes it
+
+# Summarization
+## Prompt Chaining
+
+for chunk in get_chunks(document)
+    summaries.append(summarize(chunk))
+
+summary = summarize('\n'.join(summaries))
+
+## Private
+summarize(strip_private(document))
+
+# entity extraction
+## Memory + Search
+
+- Explain embeddings
+- Add Vector DB Search
+- Replicate example above even when adding a bunch of irrelevant content
+
+# code generation
+## python agent
+https://python.langchain.com/en/latest/modules/agents/toolkits/examples/python.html
