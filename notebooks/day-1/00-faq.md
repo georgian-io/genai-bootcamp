@@ -2,6 +2,14 @@
 
 This document will contain answers to frequently asked questions. It will be updated whenever possible, so keep an eye on it!
 
+* What's the difference between a token and a word? Why do people keep saying tokens?
+
+    Tokens can be thought of as alphabets that a model uses. Similar to how we build words using our usual alphabets of A-Z, the model builds words using the tokens it knows. Roughly speaking, 1 token is about 3/4 of a word in English. Most APIs charge you on the basis of token count. For instance, OpenAI's GPT-3.5-Turbo charges $0.0015 per 1K input tokens.
+
+* What does a model's vocabulary refer to?
+
+    A model's vocabulary is simply the total number of tokens that a model knows. 
+
 ### Common Terms & Parameters
 
 We are including a short list of common terms nad parameters that you might see in this notebook or elsewhere. 
