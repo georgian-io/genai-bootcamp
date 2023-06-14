@@ -17,6 +17,7 @@ jupyterlab = "^4.0.1"
 google-cloud-aiplatform = "^1.25.0"
 pandas = "^2.0.2"
 seaborn = "^0.12.2"
+langchain = "^0.0.200"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.0"
