@@ -15,51 +15,53 @@ def main(output_dir):
 
     st.title('Langchain LLM App')
 
+    # Model name
+    model_name = st.text_input('Model Name:', value='gpt-3.5-turbo')
+
     # Inputs for prompt templates
-    prompt_template1 = st.text_input('Prompt Template 1:')
-    prompt_template2 = st.text_input('Prompt Template 2:')
+    prompt_template1 = st.text_input('Prompt Template 1:', value='re-write this as an Eminem rap: {input}')
+    prompt_template2 = st.text_input('Prompt Template 2:', value='re-write this as an Jay-Z rap: {input}')
 
     # Input for the string to be inserted in the prompt
-    input_string = st.text_input('Input String:')
+    input_string = st.text_input('Input String:', value='I went to the store, bought doritos, a drink and chewing gum')
 
     # Submit button
     submit_button = st.button('Submit')
 
     # LLM
     llm = ChatOpenAI(
-        model_name='gpt-4',
+        model_name=model_name,
         temperature=0.5,
     )
 
     if submit_button and prompt_template1 and prompt_template2 and input_string:
+        # Calculate the hashes of the prompt templates
+        hex_dig1 = model_name + '_' + hashlib.md5(prompt_template1.encode()).hexdigest()
+        hex_dig2 = model_name + '_' + hashlib.md5(prompt_template2.encode()).hexdigest()
+
+        # CSV file names
+        csv_path_1 = output_dir / f"{hex_dig1}.csv"
+        csv_path_2 = output_dir / f"{hex_dig2}.csv"
+
         # Use langchain to combine prompt template and input and run through LLM
         output_string1 = LLMChain(llm=llm, prompt=PromptTemplate(
             input_variables=['input'], template=prompt_template1)).run(input=input_string)
         output_string2 = LLMChain(llm=llm, prompt=PromptTemplate(
             input_variables=['input'], template=prompt_template2)).run(input=input_string)
 
-        # Calculate the hashes of the prompt templates
-        hex_dig1 = hashlib.md5(prompt_template1.encode()).hexdigest()
-        hex_dig2 = hashlib.md5(prompt_template2.encode()).hexdigest()
-
-        # CSV file names
-        csv_path_1 = output_dir / f"{hex_dig1}.csv"
-        csv_path_2 = output_dir / f"{hex_dig2}.csv"
+        col1, col2 = st.columns(2)
+        with col1:
+            st.header('Output 1')
+            st.write(output_string1)
+        with col2:
+            st.header('Output 2')
+            st.write(output_string2)
 
         # Serialize the interactions
         serialize_interaction(csv_path_1, input_string, output_string1)
         serialize_interaction(csv_path_2, input_string, output_string2)
 
         st.success('Interactions serialized!')
-
-        # Display the current state of the csv files
-        st.subheader('CSV From Template 1')
-        df1 = pd.read_csv(csv_path_1)
-        st.dataframe(df1)
-
-        st.subheader('CSV from Template 2')
-        df2 = pd.read_csv(csv_path_2)
-        st.dataframe(df2)
 
 
 def serialize_interaction(csv_path: Path, input_string, output_string):
