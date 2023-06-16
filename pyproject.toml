@@ -21,6 +21,7 @@ langchain = "^0.0.200"
 fiddler-auditor = "^0.0.1"
 torch = "^2.0.1"
 faiss-cpu = "^1.7.4"
+tiktoken = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.0"
