@@ -4,4 +4,4 @@ numpy==1.24.3
 peft==0.4.0.dev0
 torch==2.0.1
 tqdm==4.65.0
-transformers==4.29.2
+transformers==4.30.0
