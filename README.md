@@ -1,8 +1,5 @@
 # TODO
 - Kyryl: 06-deployment
-- Rodrigo: 01-langchain
-- Rodrigo: move memory to day 2
-- Rodrigo: check new langchain version works
 - Akash: Merge dependabot
 - Akash: Pass over notebooks
 - Akash: Remove API keys
