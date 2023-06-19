@@ -1,13 +1,9 @@
 # TODO
-- Kyryl: 06-deployment
-- Akash: Merge dependabot
-- Akash: Pass over notebooks
-- Akash: Remove API keys
 - Rodrigo: Delete history
 
 # General Hackathon Info
 ## Access
-<!-- - TODO: @Akash API access instructions -->
+To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just extract the zip file we've sent to you in the root of this directory. 
 
 ## Goals
 <!-- - TODO: @Rodrigo -->
@@ -36,9 +32,8 @@ poetry install
 pytest .
 ```
 
-<!-- TODO: @Akash review -->
 4. Paste private environment file (this should not be committed!)
-Paste `.env` file provided separately into root directory of this repository.
+Paste the `.env` file and `google-api.json` file provided separately into root directory of this repository.
 note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 
 # Repo Info
