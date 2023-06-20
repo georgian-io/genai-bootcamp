@@ -1,6 +1,3 @@
-# TODO
-- Rodrigo: Delete history
-
 # General Hackathon Info
 ## Access
 To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just extract the zip file we've sent to you in the root of this directory. 
