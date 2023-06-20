@@ -6,7 +6,42 @@ To be able to run the notebooks here, you'll need access to API keys for all the
 <!-- - TODO: @Rodrigo -->
 
 ## Timeline
- <!-- - TODO: @Akash add agenda when final -->
+
+### Day 1: 
+
+#### Introduction to LLMs (David Emerson from Vector)
+* LLM Trends
+* Foundation models
+* Working with LLMs
+* Intro to Prompt Engineering
+
+#### Customizing LLMs (David Emerson from Vector)
+* Prompt Engineering
+* Fine-tuning Approaches
+
+#### Hands-on Session (Georgian & Google)
+* Setup and example notebooks - Akash Saravanan (Georgian)
+* Prompt engineering best practices - Royal Sequeira (Georgian)
+* Google demo - Erik Saarenvirta (Google)
+
+### Day 2:
+#### Tools & platforms (Rodrigo Ceballos from Georgian)
+* Concepts with Langchain
+* Memory and Search
+* Interfaces with Streamlit
+* Evaluation with LabelStudio
+* Deployment with HuggingFace
+
+#### Fine-tuning, RLHF, and Deployment
+* Fine-tuning - Rohit Saha (Georgian)
+* RLHF - Akash Saravanan (Georgian)
+* Deploying LLMs - Rodrigo Ceballos (Georgian)
+
+#### LLM Privacy and Security 
+* Introduction - Alex Manea (Georgian)
+* Robustness and Mitigating Bias - Angeline Yasodhara (Georgian)
+* PrivateGPT - Michael Young and Kory Fong (PrivateAI)
+
 
 # Installation
 
