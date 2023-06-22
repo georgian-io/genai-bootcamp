@@ -3,7 +3,11 @@
 To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just extract the zip file we've sent to you in the root of this directory. 
 
 ## Goals
-<!-- - TODO: @Rodrigo -->
+At the end of the hackathon our goal is for participants to have:
+- A deeper understanding of the opportunities generative unlocks for them and their companies
+- A good theoretical understanding of the latest Generative AI technologies
+- A solid practical understanding of the latest Generative AI technologies
+- Implemented at least one end-to-end application using generative AI
 
 ## Timeline
 
