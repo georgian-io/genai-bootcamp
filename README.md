@@ -1,6 +1,6 @@
 # General Hackathon Info
 ## Access
-To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just extract the zip file we've sent to you in the root of this directory. 
+To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory. 
 
 ## Goals
 At the end of the hackathon our goal is for participants to have:
@@ -68,9 +68,9 @@ poetry install
 pytest .
 ```
 
-4. Paste private environment file (this should not be committed!)
-Paste the `.env` file and `google-api.json` file provided separately into root directory of this repository.
-note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
+4. Paste private environment files (this should not be committed!)
+Paste the `.env` file and `google-api.json` file provided to you into root directory of this repository.
+Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 
 # Repo Info
 ## Poetry
