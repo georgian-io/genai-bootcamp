@@ -1,6 +1,4 @@
 # General Hackathon Info
-## Access
-To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory. 
 
 ## Goals
 At the end of the hackathon our goal is for participants to have:
@@ -46,6 +44,8 @@ At the end of the hackathon our goal is for participants to have:
 * Robustness and Mitigating Bias - Angeline Yasodhara (Georgian)
 * PrivateGPT - Michael Young and Kory Fong (PrivateAI)
 
+## Access
+To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory. 
 
 # Installation
 
