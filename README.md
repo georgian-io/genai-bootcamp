@@ -49,6 +49,8 @@ At the end of the hackathon our goal is for participants to have:
 
 # Installation
 
+0. This repository requires you to have installed poetry as a dependency manager. Please follow the instructions to install poetry from [here](https://python-poetry.org/docs/#installation). 
+
 1. Environment management options
    
     a)  Poetry: ```poetry shell```
@@ -59,10 +61,16 @@ conda create -n genai-bootcamp python=3.10
 conda activate genai-bootcamp
 ```
 
+2. Install `fiddler-auditor` (we need to install this separately as it sometimes breaks).
+```
+pip install fiddler-auditor==0.0.1
+```
+
 2. Install package
 ```
 poetry install
 ```
+
 3. Check installation worked by running 
 ```
 pytest .
