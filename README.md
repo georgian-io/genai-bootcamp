@@ -1,5 +1,18 @@
-# General Hackathon Info
+![Georgian](assets/georgian-logo.png)
 
+# Georgian GenAI Bootcamp (June 2023)
+
+Welcome to the official repository for the Georgian GenAI bootcamp. This repository contains all demos used during the bootcamp to help you get started with your own projects!
+
+## Table of Contents
+
+* [Goals](#goals)
+* [Agenda](#agenda)
+* [API Access](#api-access)
+* [Setup & Installation](#setup--installation)
+* [Repository Info](#repository-info)
+
+---
 ## Goals
 At the end of the hackathon our goal is for participants to have:
 - A deeper understanding of the opportunities generative unlocks for them and their companies
@@ -7,7 +20,10 @@ At the end of the hackathon our goal is for participants to have:
 - A solid practical understanding of the latest Generative AI technologies
 - Implemented at least one end-to-end application using generative AI
 
-## Timeline
+[[Back to top]](#)
+
+---
+## Agenda
 
 ### Day 1: 
 
@@ -44,10 +60,16 @@ At the end of the hackathon our goal is for participants to have:
 * Robustness and Mitigating Bias - Angeline Yasodhara (Georgian)
 * PrivateGPT - Michael Young and Kory Fong (PrivateAI)
 
-## Access
+[[Back to top]](#)
+
+---
+## API Access
 To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory. 
 
-# Installation
+[[Back to top]](#)
+
+---
+## Setup & Installation
 
 0. This repository requires you to have installed poetry as a dependency manager. Please follow the instructions to install poetry from [here](https://python-poetry.org/docs/#installation). 
 
@@ -80,8 +102,10 @@ pytest .
 Paste the `.env` file and `google-api.json` file provided to you into root directory of this repository.
 Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 
-# Repo Info
-## Poetry
+[[Back to top]](#)
+
+## Repository Info
+### Poetry
 We use [poetry](https://python-poetry.org/) as our dependency manager.
 The link above has great documentation but there is a TL;DR.
 
@@ -89,6 +113,7 @@ The link above has great documentation but there is a TL;DR.
 - Add a dependency: `poetry add <python-lib>`
 - Where are dependencies specified? `pyproject.toml` include the high level requirements. The latests exact versions installed are in `poetry.lock`.
 
-## Debugging
+### Debugging
 - If for some reason `poetry install` fails to install a library try to `pip install <lib>` and then run `poetry install` again. This solves 95% of these errors.
 
+[[Back to top]](#)
