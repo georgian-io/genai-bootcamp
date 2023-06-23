@@ -98,8 +98,10 @@ poetry install
 pytest .
 ```
 
-5. Paste private environment files (this should not be committed!)
+5. Setup private environment files
+
 Paste the `.env` file and `google-api.json` file provided to you into root directory of this repository.
+
 Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 
 [[Back to top]](#)
