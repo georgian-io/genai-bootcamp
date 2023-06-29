@@ -4074,6 +4074,17 @@ cymem = ">=2.0.2,<2.1.0"
 murmurhash = ">=0.28.0,<1.1.0"
 
 [[package]]
+name = "privateai-client"
+version = "1.2.0"
+description = "A thin client for communicating with the Private AI de-identication API."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "privateai_client-1.2.0-py3-none-any.whl", hash = "sha256:17913dedfad02324d914780440a482f443361a7b00e6415a758d72fc13218720"},
+    {file = "privateai_client-1.2.0.tar.gz", hash = "sha256:a6cd170a0ad2a8f2505a8ee2ff60c929e9d048f9dcc19e1342d14ecaceed6ce7"},
+]
+
+[[package]]
 name = "prometheus-client"
 version = "0.17.0"
 description = "Python client for the Prometheus monitoring system."
@@ -6495,4 +6506,4 @@ test = ["zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d4688a81ae0550710ec468ccda7e90c003380adf89f2c11a4ef442e787050b0b"
+content-hash = "c53e101d2041c308c89cbfdb270784c5fb500e0b5de55543edfb2fd7b7fdceee"
