@@ -66,6 +66,29 @@ At the end of the hackathon our goal is for participants to have:
 ## API Access
 To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory. 
 
+Note: If you are visiting this page after the bootcamp/ou were not a part of the bootcamp, you likely don't have the files necessary. Read on for instructions on how to set up each of the APIs that you need. Note that the OpenAI and Google APIs will charge you based on usage, so you will need to have billing setup for it to work.
+
+Note that to run the examples, you only need to have one API key setup. So if you already have access to an OpenAI key, you could run all the notebooks with it (excluding the Google/HuggingFace examples). The PrivateAI API key is used only for the PrivateAI demos (in `notebooks/day-1/04-example-summarization.ipynb` and `notebooks/extra_resources/PrivateAI Demo.ipynb`). 
+
+1. Create a `.env` file. In the root directory of this repo (I.E., the same directory this readme is in), create a `.env` file. Ensure that the period is present at the start of the filename. Within this file, place the following text:
+```
+OPENAI_API_KEY=""
+GOOGLE_APPLICATION_CREDENTIALS="../../google-api.json"
+HUGGINGFACEHUB_API_TOKEN=""
+HUGGINGFACEHUB_ENDPOINT="https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct"
+PRIVATE_AI_API_KEY = ""
+```
+
+2. OpenAI: Create an OpenAI account (or login) and visit the [API Keys](https://platform.openai.com/account/api-keys) page. Generate an API key here and place it in the `.env` file you created above. These examples were designed with GPT-4. If you do not have access to it, please request access through the [waitlist](https://openai.com/waitlist/gpt-4-api). Or alternatively, you can use `gpt-3.5-turbo` instead.
+
+3. Google: Follow steps 1 through 4 detailed in this [link](https://cloud.google.com/vertex-ai/docs/start/client-libraries). Once you have downloaded the service account key from step 4, place it in the root director of this repository and rename it to `google-api.json`. 
+
+4. HuggingFace: Create a HuggingFace account (or login) and visit the [Access Tokens](https://huggingface.co/settings/tokens) page in the settings menu. Generate an token (read access is sufficient) and place it in the `.env` file.
+
+5. PrivateAI: Request an API key through [this form](https://www.private-ai.com/api-key/). Add it to the `.env` file above.
+
+6. You should now have all fields in the `.env` file setup and ready to go! You can now proceed with the installation steps below.
+
 [[Back to top]](#)
 
 ---
