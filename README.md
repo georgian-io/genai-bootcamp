@@ -11,6 +11,7 @@ Welcome to the official repository for the Georgian GenAI bootcamp. This reposit
 * [API Access](#api-access)
 * [Setup & Installation](#setup--installation)
 * [Repository Info](#repository-info)
+* [Resources](#resources)
 
 ---
 ## Goals
@@ -140,5 +141,12 @@ The link above has great documentation but there is a TL;DR.
 
 ### Debugging
 - If for some reason `poetry install` fails to install a library try to `pip install <lib>` and then run `poetry install` again. This solves 95% of these errors.
+
+[[Back to top]](#)
+
+## Resources
+
+* [GenAI Interface Cookiecutter](https://github.com/rodrigo-georgian/genai-interface-cookiecutter): A cookie cutter template for you to start off with a basic UI using streamlit!
+* [Georgian AI Library (GAL)](https://github.com/georgian-io/GAL): Our public repository of knowledge on all kinds of AI things!
 
 [[Back to top]](#)
