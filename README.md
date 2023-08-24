@@ -1,8 +1,8 @@
 ![Georgian](assets/georgian-logo.png)
 
-# Georgian GenAI Bootcamp (June 2023)
+# Georgian GenAI Boot Camp - June 2023
 
-Welcome to the official repository for the Georgian GenAI bootcamp. This repository contains all demos used during the bootcamp to help you get started with your own projects!
+Welcome to the Georgian GenAI boot camp repository. This repository contains all the demos we used during the bootcamp. 
 
 ## Table of Contents
 
@@ -15,16 +15,18 @@ Welcome to the official repository for the Georgian GenAI bootcamp. This reposit
 
 ---
 ## Goals
-At the end of the hackathon our goal is for participants to have:
-- A deeper understanding of the opportunities generative unlocks for them and their companies
-- A good theoretical understanding of the latest Generative AI technologies
-- A solid practical understanding of the latest Generative AI technologies
-- Implemented at least one end-to-end application using generative AI
+At the end of the hackathon our goal was for participants to have:
+- A deeper understanding of the opportunities GenAI unlocks.
+- A theoretical understanding of the latest GenAI technologies.
+- A practical understanding of the latest GenAI technologies.
+- Implemented at least one end-to-end application using GenAI.
 
 [[Back to top]](#)
 
 ---
 ## Agenda
+
+Below you can see the agenda we followed for our boot camp in June 2023. 
 
 ### Day 1: 
 
@@ -65,9 +67,7 @@ At the end of the hackathon our goal is for participants to have:
 
 ---
 ## API Access
-To be able to run the notebooks here, you'll need access to API keys for all these services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory. 
-
-Note: If you are visiting this page after the bootcamp/you were not a part of the bootcamp, you likely don't have the files necessary. Read on for instructions on how to set up each of the APIs that you need. Note that the OpenAI and Google APIs will charge you based on usage, so you will need to have billing setup for it to work.
+To be able to run the notebooks here, you'll need access to API keys for all these services. Read on for instructions on how to set up each of the APIs that you need. Note that the OpenAI and Google APIs will charge you based on usage, so you will need to set up billing.
 
 Note that to run the examples, you only need to have one API key setup. So if you already have access to an OpenAI key, you could run all the notebooks with it (excluding the Google/HuggingFace examples). The PrivateAI API key is used only for the PrivateAI demos (in `notebooks/day-1/04-example-summarization.ipynb` and `notebooks/extra_resources/PrivateAI Demo.ipynb`). 
 
@@ -146,7 +146,7 @@ The link above has great documentation but there is a TL;DR.
 
 ## Resources
 
-* [GenAI Interface Cookiecutter](https://github.com/rodrigo-georgian/genai-interface-cookiecutter): A cookie cutter template for you to start off with a basic UI using streamlit!
-* [Georgian AI Library (GAL)](https://github.com/georgian-io/GAL): Our public repository of knowledge on all kinds of AI things!
+* [GenAI Interface Cookiecutter](https://github.com/rodrigo-georgian/genai-interface-cookiecutter): A cookie cutter template for you to start off with a basic UI using streamlit.
+* [Georgian AI Library (GAL)](https://github.com/georgian-io/GAL): Our library containing overviews of AI techniques.
 
 [[Back to top]](#)# t-cot
