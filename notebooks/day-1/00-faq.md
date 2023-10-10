@@ -16,7 +16,7 @@ We are including a short list of common terms nad parameters that you might see 
 
 * `Sampling`: This simply refers to picking the next word to generate based on some probability distribution. There are a number of different sampling techniques such as `top-k sampling` and `top-p sampling`. `Temperature` is a parameter used in sampling operations. 
 
-* `temperature`: A parameter to control the level of creativity of the model. The higher this is, the more likely the model is to output text that is more novel. At the same time, higher values do make the model more prone towards hallucination (making things up). 
+* `temperature`: A parameter to control the level of creativity of the model. The higher this is, the more likely the model is to output text that is more novel. At the same time, higher values do make the model more prone towards hallucination (making things up). A lower value causes the model to try and generate the most probable text instead. Setting the temperature to 0 is usually equivalent to making the model deterministic (except in the case of GPT-4).
 
 * `top_k`: A parameter that is used to control Top-K Sampling. In essence, when predicting the next word, we usually compute probabilities for the entire vocabulary and then sample from it. In Top-K sampling, we restrict it to only the top-K words and then redistribute the probability mass among them. Ref: https://huggingface.co/blog/how-to-generate#top-k-sampling
 
