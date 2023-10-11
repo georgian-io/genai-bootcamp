@@ -155,4 +155,4 @@ The link above has great documentation but there is a TL;DR.
 * [GenAI Interface Cookiecutter](https://github.com/rodrigo-georgian/genai-interface-cookiecutter): A cookie cutter template for you to start off with a basic UI using streamlit.
 * [Georgian AI Library (GAL)](https://github.com/georgian-io/GAL): Our library containing overviews of AI techniques.
 
-[[Back to top]](#)# t-cot
+[[Back to top]](#)
