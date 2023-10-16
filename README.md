@@ -111,22 +111,17 @@ conda create -n genai-bootcamp python=3.10
 conda activate genai-bootcamp
 ```
 
-2. Install `fiddler-auditor` (we need to install this separately as it sometimes breaks).
-```
-pip install fiddler-auditor==0.0.1
-```
-
-3. Install package
+2. Install package
 ```
 poetry install
 ```
 
-4. Check installation worked by running 
+3. Check installation worked by running 
 ```
 pytest .
 ```
 
-5. Setup private environment files
+4. Setup private environment files
 
 Paste the `.env` file and `google-api.json` file provided to you into root directory of this repository.
 
