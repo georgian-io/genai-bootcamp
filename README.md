@@ -8,11 +8,11 @@ Welcome to the Georgian GenAI boot camp repository. This repository contains all
 - [Georgian GenAI Boot Camp](#georgian-genai-boot-camp)
   - [Table of Contents](#table-of-contents)
   - [Goals](#goals)
+  - [Setup \& Installation](#setup--installation)
   - [Agenda](#agenda)
   - [API Access](#api-access)
     - [Bootcamp Participants:](#bootcamp-participants)
     - [Non-Bootcamp Participants:](#non-bootcamp-participants)
-  - [Setup \& Installation](#setup--installation)
   - [Repository Info](#repository-info)
   - [Resources](#resources)
 
@@ -24,6 +24,39 @@ Our bootcamps usually consist of a few days of tutorials followed by a hackathon
 - A theoretical understanding of the latest GenAI technologies.
 - A practical understanding of the latest GenAI technologies.
 - Implemented at least one end-to-end application using GenAI.
+
+[[Back to top]](#)
+
+## Setup & Installation
+
+0. This repository requires you to have installed poetry as a dependency manager. Please follow the instructions to install poetry from [here](https://python-poetry.org/docs/#installation). 
+
+1. Clone this repository and `cd genai-bootcamp`
+
+2. Environment management options
+   
+    a)  Poetry: ```poetry shell```
+    
+    b) Conda: create and activate a conda env for this project:
+```bash
+conda create -n genai-bootcamp python=3.10
+conda activate genai-bootcamp
+```
+
+3. Install package
+```
+poetry install
+```
+
+4. Setup private environment files
+
+Paste the `.env` file and `google-api.json` file provided to you into root directory of this repository.
+
+Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
+
+Note: If you have trouble setting up Poetry, you should be able to skip it and just run `pip install -r requirements.txt` instead. Please reach out to us or create an issue if this does not work.
+
+Note: Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
 
 [[Back to top]](#)
 
@@ -125,39 +158,6 @@ AWS_DEFAULT_REGION="us-east-1"
 [[Back to top]](#)
 
 ---
-## Setup & Installation
-
-0. This repository requires you to have installed poetry as a dependency manager. Please follow the instructions to install poetry from [here](https://python-poetry.org/docs/#installation). 
-
-1. Environment management options
-   
-    a)  Poetry: ```poetry shell```
-    
-    b) Conda: create and activate a conda env for this project:
-```bash
-conda create -n genai-bootcamp python=3.10
-conda activate genai-bootcamp
-```
-
-2. Install package
-```
-poetry install
-```
-
-3. Check installation worked by running 
-```
-pytest .
-```
-
-4. Setup private environment files
-
-Paste the `.env` file and `google-api.json` file provided to you into root directory of this repository.
-
-Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
-
-Note: If you have trouble setting up Poetry, you should be able to skip it and just run `pip install -r requirements.txt` instead. Please reach out to us or create an issue if this does not work.
-
-[[Back to top]](#)
 
 ## Repository Info
 
