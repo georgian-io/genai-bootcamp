@@ -5,13 +5,17 @@
 Welcome to the Georgian GenAI boot camp repository. This repository contains all the demos we used during our bootcamps. Content for the latest bootamp can be found under the [notebooks](https://github.com/georgian-io/genai-bootcamp/tree/main/notebooks) directory. A copy of the content from previous bootcamps can be found in the [archive](https://github.com/georgian-io/genai-bootcamp/tree/main/archive).
 
 ## Table of Contents
+- [Georgian GenAI Boot Camp](#georgian-genai-boot-camp)
+  - [Table of Contents](#table-of-contents)
+  - [Goals](#goals)
+  - [Agenda](#agenda)
+  - [API Access](#api-access)
+    - [Bootcamp Participants:](#bootcamp-participants)
+    - [Non-Bootcamp Participants:](#non-bootcamp-participants)
+  - [Setup \& Installation](#setup--installation)
+  - [Repository Info](#repository-info)
+  - [Resources](#resources)
 
-* [Goals](#goals)
-* [Agenda](#agenda)
-* [API Access](#api-access)
-* [Setup & Installation](#setup--installation)
-* [Repository Info](#repository-info)
-* [Resources](#resources)
 
 ---
 ## Goals
@@ -28,42 +32,61 @@ Our bootcamps usually consist of a few days of tutorials followed by a hackathon
 
 Below you can see the agenda we followed for our boot camp in October 2023. 
 
+<!-- omit in toc -->
 ### Day 1: 
 
+<!-- omit in toc -->
 #### Introduction to LLMs & Prompt Engineering (Georgian & Vector Institute)
-* Introduction to LLMs - David Emerson (Vector Institute)
-* Prompt Engineering Basics - Akash Saravanan (Georgian)
+* [Azin Asgarian](https://www.linkedin.com/in/azin-asgarian/), AI Technical Lead at Georgian
+* [David Emerson](https://www.linkedin.com/in/david-emerson-1b9b2225/), Applied Machine Learning Scientist at Vector Institute
+* [Akash Saravanan](https://www.linkedin.com/in/akashsara/), Applied Research at Georgian
 
-#### Prompt Engineering (Georgian)
-* Chain-of-Thought & Reasoning - Akash Saravanan (Georgian)
-* Retrieval Augmented Generation (RAG) - Akash Saravanan (Georgian)
-* Advanced Prompting Techniques - Pashootan Vaezipoor (Georgian)
-* Prompt Evaluation - Pashootan Vaezipoor (Georgian)
+<!-- omit in toc -->
+#### Prompt Engineering & Evaluation (Georgian)
+* [Akash Saravanan](https://www.linkedin.com/in/akashsara/), Applied Research at Georgian
+* [Pashootan Vaezipoor](https://www.linkedin.com/in/pashootan-vaezipoor-7353212a/), Machine Learning Researcher at Georgian
 
-#### Demo Session 
-* TBD
+<!-- omit in toc -->
+#### [Guest Speakers] Google & Microsoft
+* [Erik Saarenvirta](https://www.linkedin.com/in/erik-saarenvirta/?originalSubdomain=ca), Sr. Customer Engineer, Data & AI at Google
+* [Asmita Usturge](https://www.linkedin.com/in/asmitausturge/), Senior Data Scientist and Azure Cloud Lead at Microsoft
 
+<!-- omit in toc -->
 ### Day 2:
-#### Fine-Tuning & Alignment (Georgian)
-* Fine-Tuning, PeFT, & LoRA - Rohit Saha (Georgian)
-* Alignment & RLHF - Akash Saravanan (Georgian)
 
+<!-- omit in toc -->
+#### LLM Fine-Tuning & Alignment (Georgian)
+* [Rohit Saha](https://www.linkedin.com/in/rohit-saha-ai/), Applied Research Scientist at Georgian
+* [Akash Saravanan](https://www.linkedin.com/in/akashsara/), Applied Research at Georgian
+
+<!-- omit in toc -->
 #### Tools, Platforms, & Deployment (Georgian)
-* Tools & Libraries (LangChain, PandasAI) - Rodrigo Ceballos (Georgian)
-* Agents - Rodrigo Ceballos (Georgian)
-* Interfaces - Rodrigo Ceballos (Georgian)
-* Vector Databases & RAG - Kyryl Truskovskyi (Georgian)
-* Orchestration - Kyryl Truskovskyi (Georgian)
-* Deployment - Kyryl Truskovskyi (Georgian)
+* [Rodrigo Ceballos](https://www.linkedin.com/in/rodrigo-ceballos-lentini/), Machine Learning Engineer at Georgian
+* [Kyryl Truskovskyi](https://www.linkedin.com/in/kyryl-truskovskyi-275b7967/), Machine Learning Engineer at Georgian
+* [Maria Ponomarenko](https://www.linkedin.com/in/maria-ponomarenko-71b465179/), MLOps Intern at Georgian
 
-#### Privacy, Trust & Responsible AI (Georgian)
-* Privacy, Trust & Responsible AI - Angeline Yasodhara (Georgian)
-* Synthetic Data for Evaluation - Rodrigo Ceballos (Georgian)
+<!-- omit in toc -->
+#### Privacy, Trust & Responsible AI (Georgian & PrivateAI)
+* [Angeline Yasodhara](https://www.linkedin.com/in/angelineyasodhara/), Applied Research Scientist at Georgian
+* [Mike Brosseau](https://www.linkedin.com/in/mikebrosseau/), Director, Product Management at Private AI
+* [Rodrigo Ceballos](https://www.linkedin.com/in/rodrigo-ceballos-lentini/), Machine Learning Engineer at Georgian
 
-### Day 3-5:
+<!-- omit in toc -->
+### Day 3:
 
-#### Demo Sessions
-TBD
+<!-- omit in toc -->
+#### [Guest Speakers] Meta & Qdrant
+* [Kacper Lukawski](https://www.linkedin.com/in/kacperlukawski/), Developer Advocate at Qdrant
+* [Vedanuj Goswami](https://www.linkedin.com/in/vedanuj/), Research Engineer at Meta AI
+
+<!-- omit in toc -->
+### Day 4:
+
+<!-- omit in toc -->
+#### [Guest Speaker] LLM Observability with Arize AI
+* [Amber Roberts](https://www.linkedin.com/in/amber-roberts42/), ML Growth Lead at Arize AI
+* [Claire Longo](https://www.linkedin.com/in/claire-longo/), Head of ML Solutions Engineering at Arize AI
+
 
 [[Back to top]](#)
 
@@ -84,15 +107,20 @@ Note that to run the examples, you only need to have one LLM setup. So if you al
 ```
 OPENAI_API_KEY=""
 GOOGLE_APPLICATION_CREDENTIALS="../../google-api.json"
-PRIVATE_AI_API_KEY = ""
+ANYSCALE_API_BASE="https://api.endpoints.anyscale.com/v1"
 ANYSCALE_API_KEY = ""
+PRIVATE_AI_API_KEY = ""
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
+AWS_DEFAULT_REGION="us-east-1"
 ```
 
 1. OpenAI: Create an OpenAI account (or login) and visit the [API Keys](https://platform.openai.com/account/api-keys) page. Generate an API key here and place it in the `.env` file you created above. These examples were designed with GPT-4. If you do not have access to it, please request access through the [waitlist](https://openai.com/waitlist/gpt-4-api). Or alternatively, you can use `gpt-3.5-turbo` instead.
 2. Google: Follow steps 1 through 4 detailed in this [link](https://cloud.google.com/vertex-ai/docs/start/client-libraries). Once you have downloaded the service account key from step 4, place it in the root directory of this repository and rename it to `google-api.json`. 
-3. PrivateAI: Request an API key through [this form](https://www.private-ai.com/api-key/). Add it to the `.env` file above.
-4. AnyScale: Once you have billing setup, you can get your API keys from the [credentials](https://app.endpoints.anyscale.com/credentials) page.
-5. You should now have all fields in the `.env` file setup and ready to go! You can now proceed with the installation steps below.
+3. AnyScale: Once you have billing setup, you can get your API keys from the [credentials](https://app.endpoints.anyscale.com/credentials) page.
+4. PrivateAI: Request an API key through [this form](https://www.private-ai.com/api-key/). Add it to the `.env` file above.
+5. AWS Bedrock (for Claude): Follow the instructions on [this page](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey) to obtain your AWS keys. Alternatively, you can authenticate via boto3 if you have AWS Bedrock access within your organization.
+6. You should now have all fields in the `.env` file setup and ready to go! You can now proceed with the installation steps below.
 
 [[Back to top]](#)
 
@@ -132,6 +160,8 @@ Note: If you have trouble setting up Poetry, you should be able to skip it and j
 [[Back to top]](#)
 
 ## Repository Info
+
+<!-- omit in toc -->
 ### Poetry
 We use [poetry](https://python-poetry.org/) as our dependency manager.
 The link above has great documentation but there is a TL;DR.
@@ -140,6 +170,7 @@ The link above has great documentation but there is a TL;DR.
 - Add a dependency: `poetry add <python-lib>`
 - Where are dependencies specified? `pyproject.toml` include the high level requirements. The latests exact versions installed are in `poetry.lock`.
 
+<!-- omit in toc -->
 ### Debugging
 - If for some reason `poetry install` fails to install a library try to `pip install <lib>` and then run `poetry install` again. This solves 95% of these errors.
 
