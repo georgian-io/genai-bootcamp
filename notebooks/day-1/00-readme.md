@@ -1,4 +1,23 @@
-# FAQ
+# Readme
+
+## Model Guide
+
+The code in this repository supports and works with the following models:
+
+* OpenAI: `gpt-3.5-turbo`, `gpt-4`
+* Google: `chat-bison`, `text-bison` (Chat and Instruction Fine-Tuned versions of PaLM)
+* Meta: `Llama-2-7b-chat-hf`, `Llama-2-13b-chat-hf`, `Llama-2-70b-chat-hf`
+* Anthropic: `claude-v2`, `claude-instant-v1`
+
+You can make use of any of the models above in the `llm_call` function depicted in the notebooks in this repository, as seen in `03-examples.ipynb`. While this functions exists to facilitate easy swapping between models, when developing a POC you might want to pick one model family and stick to it. In such scenarios, we recommend taking the respective code snippet from either the `tools.py` file or the `01-api-access.ipynb` file. 
+
+We also leave some notes on these models in terms of features they may or may not support (as of October 17 2023).
+
+* Function Calling API: Only OpenAI model support this at this time.
+* System Prompt: This is supported out of the box for OpenAI and Meta (hosted via AnyScale) models. Google's text-bison is not a chat model and so does not support it. Google's chat-bison supports this but it is called `context`. Anthropic models technically support it but Claude does not pay a lot of attention to the system prompt, as described [here](https://docs.anthropic.com/claude/docs/constructing-a-prompt#system-prompt-optional).
+* Chat History: OpenAI and Meta (hosted via AnyScale) models require a list of messages as input. Prior conversation history can be included here. For the same reason as before, `text-bison` does not support this. `chat-bison` supports this feature and Vertex AI even stores this conversation history in the chat object. Anthropic models do support this but requires the entire conversation in a single string, with human input prepended with a `\n\nHuman:`. In addition, all messages end with a `\n\nAssistant:` for the assistant's response.
+
+## FAQ
 
 This document will contain answers to frequently asked questions. It will be updated whenever possible, so keep an eye on it!
 
@@ -10,7 +29,7 @@ This document will contain answers to frequently asked questions. It will be upd
 
     A model's vocabulary is simply the total number of tokens that a model knows. 
 
-### Common Terms & Parameters
+## Common Terms & Parameters
 
 We are including a short list of common terms nad parameters that you might see in this notebook or elsewhere. 
 
