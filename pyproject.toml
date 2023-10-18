@@ -33,6 +33,7 @@ privateai-client = "^1.2.0"
 pandasai = "^1.2.6"
 scipy = "^1.11.2"
 qdrant-client = "^1.5.4"
+boto3 = "^1.28.63"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.0"
