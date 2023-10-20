@@ -2,7 +2,7 @@
 
 # Georgian GenAI Boot Camp
 
-Welcome to the Georgian GenAI boot camp repository. This repository contains all the demos we used during our bootcamps. Content for the latest bootamp can be found under the [notebooks](https://github.com/georgian-io/genai-bootcamp/tree/main/notebooks) directory. A copy of the content from previous bootcamps can be found in the [archive](https://github.com/georgian-io/genai-bootcamp/tree/main/archive).
+Welcome to the Georgian GenAI boot camp repository. This repository contains all the demos we used during our bootcamps. Content for the latest boot camp can be found under the [notebooks](https://github.com/georgian-io/genai-bootcamp/tree/main/notebooks) directory. A copy of the content from previous boot camps can be found in the [archive](https://github.com/georgian-io/genai-bootcamp/tree/main/archive).
 
 ## Table of Contents
 - [Georgian GenAI Boot Camp](#georgian-genai-boot-camp)
@@ -128,13 +128,13 @@ Below you can see the agenda we followed for our boot camp in October 2023.
 
 ### Bootcamp Participants:
 
-To be able to run the notebooks here, you'll need access to API keys for all the different services. Fear not! We've provided you with all the API keys you need! Just download the files we've sent to you and place them in the root of this directory.
+To be able to run the notebooks here, you'll need access to API keys for all the different services. Fear not, we've provided you with all the API keys you need. Just download the files we've sent to you and place them in the root of this directory.
 
 ### Non-Bootcamp Participants:
 
 To be able to run the notebooks here, you'll need access to API keys for all these services. Read on for instructions on how to set up each of the APIs that you need. Many of these APIs (such as OpenAI) will charge you based on usage, so you will need to set up billing.
 
-Note that to run the examples, you only need to have one LLM setup. So if you already have access to an OpenAI key, you could run all the notebooks with it (excluding the Google/HuggingFace examples). The PrivateAI API key is used only for the PrivateAI demo (`notebooks/extra_resources/PrivateAI Demo.ipynb`). We use AnyScale to set up LLaMa 2 access. 
+Note that to run the examples, you only need to have one LLM set up. So if you already have access to an OpenAI key, you could run all the notebooks with it (excluding the Google/HuggingFace examples). The PrivateAI API key is used only for the PrivateAI demo (`notebooks/extra_resources/PrivateAI Demo.ipynb`). We use AnyScale to set up LLaMa 2 access. 
 
 1. Create a `.env` file. In the root directory of this repo (I.E., the same directory this readme is in), create a `.env` file. Ensure that the period is present at the start of the filename. Within this file, place the following text:
 ```
