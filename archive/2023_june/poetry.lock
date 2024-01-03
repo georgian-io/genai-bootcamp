@@ -696,7 +696,6 @@ files = [
 [package.dependencies]
 dill = ">=0.3.1"
 ipywidgets = ">=7.5"
-iso-639 = "*"
 jupyter = ">=1.0"
 munch = ">=2.5"
 numpy = ">=1.18"
@@ -2256,16 +2255,6 @@ widgetsnbextension = ">=4.0.9,<4.1.0"
 
 [package.extras]
 test = ["ipykernel", "jsonschema", "pytest (>=3.6.0)", "pytest-cov", "pytz"]
-
-[[package]]
-name = "iso-639"
-version = "0.4.5"
-description = "Python library for ISO 639 standard"
-optional = false
-python-versions = "*"
-files = [
-    {file = "iso-639-0.4.5.tar.gz", hash = "sha256:dc9cd4b880b898d774c47fe9775167404af8a85dd889d58f9008035109acce49"},
-]
 
 [[package]]
 name = "isoduration"
