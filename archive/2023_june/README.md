@@ -95,6 +95,8 @@ PRIVATE_AI_API_KEY = ""
 ---
 ## Setup & Installation
 
+IMPORTANT: This code is provided as-is from June 2023. Please note that all code provided here is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running this code. Please use the latest version available in the root of this repository.
+
 0. This repository requires you to have installed poetry as a dependency manager. Please follow the instructions to install poetry from [here](https://python-poetry.org/docs/#installation). 
 
 1. Environment management options
@@ -137,7 +139,7 @@ The link above has great documentation but there is a TL;DR.
 
 - Install the package: `poetry install`
 - Add a dependency: `poetry add <python-lib>`
-- Where are dependencies specified? `pyproject.toml` include the high level requirements. The latests exact versions installed are in `poetry.lock`.
+- Where are dependencies specified? `pyproject.toml` include the high level requirements. The latest exact versions installed are in `poetry.lock`.
 
 ### Debugging
 - If for some reason `poetry install` fails to install a library try to `pip install <lib>` and then run `poetry install` again. This solves 95% of these errors.
