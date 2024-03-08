@@ -95,7 +95,7 @@ PRIVATE_AI_API_KEY = ""
 ---
 ## Setup & Installation
 
-IMPORTANT: This code is provided as-is from June 2023. Please note that all code provided here is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running this code. Please use the latest version available in the root of this repository.
+IMPORTANT: This code is provided as-is from June 2023. Please note that all code provided here is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running this code. Please use the latest version available in the root of this repository. The `pyproject.toml` file for this project has been renamed to `pyproject.toml.txt`. We leave it only for the purposes of informing the user about the libraries being used in this directory.
 
 0. This repository requires you to have installed poetry as a dependency manager. Please follow the instructions to install poetry from [here](https://python-poetry.org/docs/#installation). 
 
