@@ -1,7 +1,0 @@
-datasets
-evaluate
-numpy
-peft
-torch
-tqdm
-transformers
