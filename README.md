@@ -1,10 +1,10 @@
+⛔ [DEPRECATED] ⛔
+
+IMPORTANT: This code is provided as-is from October 2023. Please note that all code provided here is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running this code.
+
 ![Georgian](assets/georgian-logo.png)
 
 # Georgian GenAI Boot Camp
-
-Welcome to the Georgian GenAI boot camp repository. This repository contains all the demos we used during our bootcamps. Content for the latest boot camp can be found under the [notebooks](https://github.com/georgian-io/genai-bootcamp/tree/main/notebooks) directory. A copy of the content from previous boot camps can be found in the [archive](https://github.com/georgian-io/genai-bootcamp/tree/main/archive).
-
-IMPORTANT: In the archive folder, the code provided as-is from the dates of the respective bootcamps. Please note that all code provided here is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running the code in the archive.
 
 ## Table of Contents
 - [Georgian GenAI Boot Camp](#georgian-genai-boot-camp)
