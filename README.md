@@ -9,8 +9,50 @@ We're hard at work preparing materials for the next bootcamp. In the mean time, 
 ## Table of Contents
 - [Georgian GenAI Bootcamp](#georgian-genai-bootcamp)
   - [Table of Contents](#table-of-contents)
+  - [Setup \& Installation](#setup--installation)
   - [Previous Bootcamp Materials](#previous-bootcamp-materials)
   - [Resources](#resources)
+
+
+## Setup & Installation
+
+1. Clone this repository and `cd genai-bootcamp`
+
+2. Setup your environment
+
+If you use Conda:
+
+```bash
+conda create -n llm-evaluation python=3.10
+conda activate llm-evaluation
+pip install -r requirements.txt
+```
+
+If you use Poetry:
+
+```bash
+poetry shell
+poetry install
+```
+
+If you use standard Python:
+
+```bash
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+3. Create private environment file (this will not be committed!). If you are a bootcamp participant, you would have received this file. Please rename it to `.env`. 
+```
+mv .env-template .env
+```
+
+Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
+
+Note: Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
+
+[[Back to top]](#)
 
 ## Previous Bootcamp Materials
 
@@ -18,10 +60,10 @@ You can find the content from previous bootcamps in the [releases](https://githu
 
 IMPORTANT: Please note code in the linked repositories are provided as-is from the dates of the respective bootcamps. All code provided in those pages is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running the code in the archive.
 
-| Date    | Event    | Link |
-|---------|----------|------|
+| Date    | Event                                                                                           | Link                                                                                |
+| ------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | 2023-10 | [Bootcamp](https://github.com/georgian-io/genai-bootcamp/releases/tag/2023_10_october_bootcamp) | [HERE](https://github.com/georgian-io/genai-bootcamp/tree/2023_10_october_bootcamp) |
-| 2023-06 | [Bootcamp](https://github.com/georgian-io/genai-bootcamp/releases/tag/2023_06_june_bootcamp) | [HERE](https://github.com/georgian-io/genai-bootcamp/tree/2023_06_june_bootcamp)|
+| 2023-06 | [Bootcamp](https://github.com/georgian-io/genai-bootcamp/releases/tag/2023_06_june_bootcamp)    | [HERE](https://github.com/georgian-io/genai-bootcamp/tree/2023_06_june_bootcamp)    |
 
 [[Back to top]](#)
 

@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "genai-bootcamp"
+version = "0.1.0"
+description = ""
+authors = ["Akash Saravanan <akash.saravanan@georgian.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+datasets = "^2.19.1"
+llama-index = "^0.10.40"
+jupyter = "^1.0.0"
+python-dotenv = "^1.0.1"
+torch = "2.2.0"
+torchvision = "0.17.0"
+torchaudio = "2.2.0"
+mwparserfromhell = "^0.6.6"
+llama-index-embeddings-huggingface = "^0.2.1"
+llama-index-vector-stores-lancedb = "^0.1.4"
+openai = "^1.30.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
