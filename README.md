@@ -57,7 +57,7 @@ mv .env-template .env
 
 You can find the content from previous bootcamps in the [releases](https://github.com/georgian-io/genai-bootcamp/releases) page. The table below also links you to all our bootcamps, workshops, and other events directly. 
 
-IMPORTANT: Please note code in the linked repositories are provided as-is from the dates of the respective bootcamps. All code provided in those pages is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running the code in the archive.
+IMPORTANT: Please note code in the linked repositories are provided as-is from the dates of the respective bootcamps. All code provided in those pages is for illustrative purposes only. Dependent libraries may have updated since then and versions in the linked repositories may contain vulnerabilities. We do NOT recommend running the code in the archive.
 
 | Date    | Event                                                                                           | Link                                                                                |
 | ------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |

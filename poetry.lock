@@ -1774,14 +1774,29 @@ postgres = ["asyncpg (>=0.28.0,<0.29.0)", "pgvector (>=0.1.0,<0.2.0)", "psycopg2
 query-tools = ["guidance (>=0.0.64,<0.0.65)", "jsonpath-ng (>=1.6.0,<2.0.0)", "lm-format-enforcer (>=0.4.3,<0.5.0)", "rank-bm25 (>=0.2.2,<0.3.0)", "scikit-learn", "spacy (>=3.7.1,<4.0.0)"]
 
 [[package]]
+name = "llama-index-llms-anyscale"
+version = "0.1.4"
+description = "llama-index llms anyscale integration"
+optional = false
+python-versions = "<4.0,>=3.8.1"
+files = [
+    {file = "llama_index_llms_anyscale-0.1.4-py3-none-any.whl", hash = "sha256:94c081c97102529ebc35be606cf31caddde2aaba2dc4fbf4940bff86fd9dae3e"},
+    {file = "llama_index_llms_anyscale-0.1.4.tar.gz", hash = "sha256:a8426b261e85ac59d2fc0712065a86cf0d1dbaef34a1d910ede9f331d0cc44f7"},
+]
+
+[package.dependencies]
+llama-index-core = ">=0.10.1,<0.11.0"
+llama-index-llms-openai = ">=0.1.1,<0.2.0"
+
+[[package]]
 name = "llama-index-llms-openai"
-version = "0.1.21"
+version = "0.1.22"
 description = "llama-index llms openai integration"
 optional = false
 python-versions = "<4.0,>=3.8.1"
 files = [
-    {file = "llama_index_llms_openai-0.1.21-py3-none-any.whl", hash = "sha256:fd2fa240238c7dca0170bf55957bb088d9b6acf63c80924eb59498f3a5ac0df3"},
-    {file = "llama_index_llms_openai-0.1.21.tar.gz", hash = "sha256:e9d631135160ac87093cd7d5ae3e32c4debf8eeaafa29ee4739675867155d773"},
+    {file = "llama_index_llms_openai-0.1.22-py3-none-any.whl", hash = "sha256:84a8c910671460ad724ed818192f209f7481e71bcc6528553ba7e66db2e14bcd"},
+    {file = "llama_index_llms_openai-0.1.22.tar.gz", hash = "sha256:729bf2ea7043517465e1d585089512b77d8b3ce92233a67c138d5d621061ed56"},
 ]
 
 [package.dependencies]
@@ -5172,4 +5187,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "a3c07ded99b092e8a38143c99dfd37b48aae09df75dbb87ee5d2d017fcfe2c69"
+content-hash = "02f74d76a6a6eb15495fcec4b11e41769a0a5404c3f400ea8ba5a0092dc15321"

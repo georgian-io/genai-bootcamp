@@ -18,6 +18,8 @@ mwparserfromhell = "^0.6.6"
 llama-index-embeddings-huggingface = "^0.2.1"
 llama-index-vector-stores-lancedb = "^0.1.4"
 openai = "^1.30.5"
+llama-index-llms-anyscale = "^0.1.4"
+llama-index-llms-openai = "^0.1.22"
 
 
 [build-system]
