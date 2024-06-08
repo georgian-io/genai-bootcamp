@@ -20,6 +20,7 @@ llama-index-vector-stores-lancedb = "^0.1.4"
 openai = "^1.30.5"
 llama-index-llms-anyscale = "^0.1.4"
 llama-index-llms-openai = "^0.1.22"
+poetry-plugin-export = "^1.8.0"
 
 
 [build-system]
