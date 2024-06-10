@@ -46,7 +46,7 @@ pip install -r requirements.txt
 3. Create private environment file (this will not be committed!). If you are a bootcamp participant, you would have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
 Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 ```
-mv .env-template .env
+mv env-template .env
 ```
 
 4. Test your installation by running `notebooks/00-test_environment.ipynb`. If all code blocks work in this notebook, you are all set for the bootcamp!
