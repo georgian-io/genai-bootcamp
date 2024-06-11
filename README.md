@@ -35,6 +35,10 @@ poetry shell
 poetry install
 ```
 
+Troubleshoot: If you get an error like `Current Python version (3.x.x) is not allowed by the project (^3.12).
+
+Delete your old poetry env by doing `poetry env remove <env-name>`. You can get the env name by running `poetry env list`. Then run poetry shell again.
+
 If you use standard Python:
 
 ```bash
