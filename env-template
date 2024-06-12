@@ -1,0 +1,5 @@
+ANYSCALE_API_KEY=""
+ANYSCALE_BASE_URL="https://api.endpoints.anyscale.com/v1"
+OPENAI_API_KEY=""
+OPENAI_BASE_URL="https://api.openai.com/v1"
+YDC_API_KEY=""
