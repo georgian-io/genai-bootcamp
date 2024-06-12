@@ -24,6 +24,9 @@ poetry-plugin-export = "^1.8.0"
 ragas = "^0.1.9"
 evaluate = "^0.4.2"
 pydantic = "^2.7.4"
+llama-index-program-openai = "^0.1.6"
+absl-py = "^2.1.0"
+rouge-score = "^0.1.2"
 
 
 [build-system]
