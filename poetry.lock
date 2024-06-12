@@ -312,6 +312,17 @@ files = [
 dev = ["freezegun (>=1.0,<2.0)", "pytest (>=6.0)", "pytest-cov"]
 
 [[package]]
+name = "backoff"
+version = "2.2.1"
+description = "Function decoration for backoff and retry"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "backoff-2.2.1-py3-none-any.whl", hash = "sha256:63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"},
+    {file = "backoff-2.2.1.tar.gz", hash = "sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba"},
+]
+
+[[package]]
 name = "beautifulsoup4"
 version = "4.12.3"
 description = "Screen-scraping library"
@@ -2052,6 +2063,30 @@ langchain-core = ">=0.2.0,<0.3.0"
 
 [package.extras]
 extended-testing = ["beautifulsoup4 (>=4.12.3,<5.0.0)", "lxml (>=4.9.3,<6.0)"]
+
+[[package]]
+name = "langfuse"
+version = "2.36.1"
+description = "A client library for accessing langfuse"
+optional = false
+python-versions = "<4.0,>=3.8.1"
+files = [
+    {file = "langfuse-2.36.1-py3-none-any.whl", hash = "sha256:2cba244024bdf63aa3295bffada6b257497f9d18a3ca09026595470f46e09e5b"},
+    {file = "langfuse-2.36.1.tar.gz", hash = "sha256:5117038d35d4629cfa37e8d89986132c926c52c05631cdfef4f9d54bc05591d8"},
+]
+
+[package.dependencies]
+backoff = ">=1.10.0"
+httpx = ">=0.15.4,<1.0"
+idna = ">=3.7,<4.0"
+packaging = ">=23.2,<24.0"
+pydantic = ">=1.10.7,<3.0"
+wrapt = ">=1.14,<2.0"
+
+[package.extras]
+langchain = ["langchain (>=0.0.309)"]
+llama-index = ["llama-index (>=0.10.12,<2.0.0)"]
+openai = ["openai (>=0.27.8)"]
 
 [[package]]
 name = "langsmith"
@@ -6201,4 +6236,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "cfd05e3d125d368b56582f4b550bdac9d977c2b9a323c473f75da826a88ebdc6"
+content-hash = "33df1f029370318a01dff352fd5d3bc7d6187f4707660c1c4a7769097e6fb97c"
