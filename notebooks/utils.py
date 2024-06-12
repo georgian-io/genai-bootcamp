@@ -16,7 +16,6 @@ def load_data(sample_size=100):
         "wikitext-103-raw-v1",
         trust_remote_code=False,
     )
-    sample_size = 100
     data = data["train"][:sample_size]
     return data
 
