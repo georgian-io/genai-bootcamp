@@ -45,6 +45,7 @@ def clean_data(data):
 
 # Load as LlamaIndex documents
 def preprocess_data(data):
+    data = clean_data(data)
     documents = []
     for i in tqdm.tqdm(range(len(data["page"]))):
         documents.append(
