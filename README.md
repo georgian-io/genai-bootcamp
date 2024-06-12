@@ -47,7 +47,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-1. Create private environment file (this will not be committed!). If you are a bootcamp participant, you would have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
+1. Create private environment file (this will not be committed!). If you are a bootcamp participant, you should have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
 Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 ```
 mv env-template .env
@@ -61,7 +61,7 @@ mv env-template .env
 
 You can find the content from previous bootcamps in the [releases](https://github.com/georgian-io/genai-bootcamp/releases) page. The table below also links you to all our bootcamps, workshops, and other events directly. 
 
-IMPORTANT: Please note code in the linked repositories are provided as-is from the dates of the respective bootcamps. All code provided in those pages is for illustrative purposes only. Dependent libraries may have updated since then and versions in the linked repositories may contain vulnerabilities. We do NOT recommend running the code in the archive.
+Disclaimer: Please note code in the linked repositories are provided as-is from the dates of the respective bootcamps. All code provided in those pages is for illustrative purposes only. Dependent libraries may have updated since then and versions in the linked repositories may contain vulnerabilities.No guarantee, representation or warranty is being made, express or implied, as to the safety or correctness of the code. It has not been audited and as such there can be no assurance it will work as intended, and users may experience delays, failures, errors, omissions or loss of transmitted information. We do NOT recommend running the code in the archive.Nothing in this repo should be construed as investment advice or legal advice for any particular facts or circumstances and is not meant to replace competent counsel. It is strongly advised for you to contact a reputable attorney in your jurisdiction for any questions or concerns with respect thereto. Georgian is not liable for any use of the foregoing, and users should proceed with caution and use at their own risk. Please contact info@georgian.io for more info.
 
 | Date    | Event                                                                                           | Link                                                                                |
 | ------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
