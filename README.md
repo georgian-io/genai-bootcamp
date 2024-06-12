@@ -35,9 +35,9 @@ poetry shell
 poetry install
 ```
 
-Troubleshoot: If you get an error like `Current Python version (3.x.x) is not allowed by the project (^3.12).
+Troubleshooting Tip:
 
-Delete your old poetry env by doing `poetry env remove <env-name>`. You can get the env name by running `poetry env list`. Then run poetry shell again.
+* If you get an error like `Current Python version (3.x.x) is not allowed by the project (^3.12)`: Delete your old poetry env by running `poetry env remove <env-name>`. You can get the env name by running `poetry env list`. Then run `poetry shell` again.
 
 If you use standard Python:
 
@@ -47,13 +47,13 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Create private environment file (this will not be committed!). If you are a bootcamp participant, you would have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
+1. Create private environment file (this will not be committed!). If you are a bootcamp participant, you would have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
 Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 ```
 mv env-template .env
 ```
 
-4. Test your installation by running `notebooks/00-test_environment.ipynb`. If all code blocks work in this notebook, you are all set for the bootcamp!
+1. Test your installation by running `notebooks/00-test_environment.ipynb`. If all code blocks work in this notebook, you are all set for the bootcamp!
 
 [[Back to top]](#)
 
