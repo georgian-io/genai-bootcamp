@@ -28,7 +28,7 @@ conda activate genai_bootcamp
 pip install -r requirements.txt
 ```
 
-If you use Poetry:
+If you use Poetry (remember to update to the latest version!):
 
 ```bash
 poetry shell
