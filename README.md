@@ -18,7 +18,7 @@ Welcome to the Georgian GenAI Bootcamp repository. This repository contains all 
 
 1. Clone this repository and `cd genai-bootcamp`
 
-2. Setup your environment
+2. Setup your environment. Note: This repository requires Python 3.12 or higher.
 
 If you use Conda:
 
@@ -47,13 +47,13 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-1. Create private environment file (this will not be committed!). If you are a bootcamp participant, you should have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
+3. Create private environment file (this will not be committed!). If you are a bootcamp participant, you should have received this file. Please rename it to `.env`. Some operating systems might rename `.env` to `env`. The period at the front is important as all the notebooks expect this. Please rename the file if you run into this issue.
 Note: DO NOT COMMIT THIS FILE OR SHARE IT ANYWHERE!
 ```
 mv env-template .env
 ```
 
-1. Test your installation by running `notebooks/00-test_environment.ipynb`. If all code blocks work in this notebook, you are all set for the bootcamp!
+4. Test your installation by running `notebooks/00-test_environment.ipynb`. If all code blocks work in this notebook, you are all set for the bootcamp! If you use VSCode, you can run notebooks directly in the editor. Otherwise run `jupyter notebook` in your terminal (`poetry run jupyter notebook` if you use Poetry).
 
 [[Back to top]](#)
 
