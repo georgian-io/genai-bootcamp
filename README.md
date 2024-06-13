@@ -23,8 +23,8 @@ Welcome to the Georgian GenAI Bootcamp repository. This repository contains all 
 If you use Conda:
 
 ```bash
-conda create -n llm-evaluation python=3.10
-conda activate llm-evaluation
+conda create -n genai_bootcamp python=3.12
+conda activate genai_bootcamp
 pip install -r requirements.txt
 ```
 
