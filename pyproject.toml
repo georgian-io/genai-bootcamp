@@ -29,6 +29,7 @@ absl-py = "^2.1.0"
 rouge-score = "^0.1.2"
 langfuse = "^2.36.1"
 tornado = "^6.4.1"
+ipykernel = "^6.29.4"
 
 
 [build-system]
