@@ -1,9 +1,9 @@
 [tool.poetry]
+package-mode = false
 name = "genai-bootcamp"
-version = "0.1.0"
-description = ""
 authors = ["Akash Saravanan <akash.saravanan@georgian.io>"]
 readme = "README.md"
+license = "Apache 2.0"
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -30,6 +30,7 @@ rouge-score = "^0.1.2"
 langfuse = "^2.36.1"
 tornado = "^6.4.1"
 ipykernel = "^6.29.4"
+llama-index-retrievers-bm25 = "^0.1.3"
 
 
 [build-system]
