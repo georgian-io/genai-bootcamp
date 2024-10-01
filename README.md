@@ -1,3 +1,7 @@
+⛔ [DEPRECATED] ⛔
+
+IMPORTANT: This code is provided as-is from June 2024. Please note that all code provided here is for illustrative purposes only. Dependent libraries have since been updated and current versions may contain vulnerabilities. We do NOT recommend running this code.
+
 ![Georgian](assets/georgian-logo.png)
 
 # Georgian GenAI Bootcamp
@@ -60,9 +64,6 @@ mv env-template .env
 ## Previous Bootcamp Materials
 
 You can find the content from previous bootcamps in the [releases](https://github.com/georgian-io/genai-bootcamp/releases) page. The table below also links you to all our bootcamps, workshops, and other events directly. 
-
-Disclosures: 
-Please note code in the linked repositories are provided as-is from the dates of the respective bootcamps. All code provided in those pages is for illustrative purposes only. Dependent libraries may have updated since then and versions in the linked repositories may contain vulnerabilities. No guarantee, representation or warranty is being made, express or implied, as to the safety or correctness of the code. It has not been audited and as such there can be no assurance it will work as intended, and users may experience delays, failures, errors, omissions or loss of transmitted information. We do NOT recommend running the code in the archive. Nothing in this repo should be construed as investment advice or legal advice for any particular facts or circumstances and is not meant to replace competent counsel. It is strongly advised for you to contact a reputable attorney in your jurisdiction for any questions or concerns with respect thereto. Georgian is not liable for any use of the foregoing, and users should proceed with caution and use at their own risk. Please contact info@georgian.io for more info.
 
 
 | Date    | Event                                                                                           | Link                                                                                |
