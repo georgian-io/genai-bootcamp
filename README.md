@@ -4,16 +4,15 @@
 
 Welcome to the Georgian GenAI Bootcamp repository. This repository contains all demo and code from our bootcamps. 
 
-<!-- We're hard at work preparing materials for the next bootcamp. In the meantime, you can read the materials below to get familiar with the topics we covered in previous bootcamps. Please note that we have not updated these materials since the dates noted in the libraries and the code is provided for illustrative purposes only. See the disclosure below for more information. -->
+We're hard at work preparing materials for the next bootcamp. In the meantime, you can read the materials below to get familiar with the topics we covered in previous bootcamps. Please note that we have not updated these materials since the dates noted in the libraries and the code is provided for illustrative purposes only. See the disclosure below for more information.
 
 ## Table of Contents
 - [Georgian GenAI Bootcamp](#georgian-genai-bootcamp)
   - [Table of Contents](#table-of-contents)
-  - [Setup \& Installation](#setup--installation)
   - [Previous Bootcamp Materials](#previous-bootcamp-materials)
   - [Resources](#resources)
 
-
+<!-- 
 ## Setup & Installation
 
 1. Clone this repository and `cd genai-bootcamp`
@@ -55,7 +54,7 @@ mv env-template .env
 
 4. Test your installation by running `notebooks/00-test_environment.ipynb`. If all code blocks work in this notebook, you are all set for the bootcamp! If you use VSCode, you can run notebooks directly in the editor. Otherwise run `jupyter notebook` in your terminal (`poetry run jupyter notebook` if you use Poetry).
 
-[[Back to top]](#)
+[[Back to top]](#) -->
 
 ## Previous Bootcamp Materials
 
@@ -67,6 +66,7 @@ Please note code in the linked repositories are provided as-is from the dates of
 
 | Date    | Event                                                                                           | Link                                                                                |
 | ------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 2024-06 | [Bootcamp](https://github.com/georgian-io/genai-bootcamp/releases/tag/2024_06_june_bootcamp)    | [HERE](https://github.com/georgian-io/genai-bootcamp/tree/2024_06_june_bootcamp)    |
 | 2023-10 | [Bootcamp](https://github.com/georgian-io/genai-bootcamp/releases/tag/2023_10_october_bootcamp) | [HERE](https://github.com/georgian-io/genai-bootcamp/tree/2023_10_october_bootcamp) |
 | 2023-06 | [Bootcamp](https://github.com/georgian-io/genai-bootcamp/releases/tag/2023_06_june_bootcamp)    | [HERE](https://github.com/georgian-io/genai-bootcamp/tree/2023_06_june_bootcamp)    |
 
